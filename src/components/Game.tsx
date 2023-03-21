@@ -10,7 +10,7 @@ import { Share } from "./Share";
 import { Guesses } from "./Guesses";
 
 function getDayString() {
-  return DateTime.now().toFormat("yyyy-MM-dd");
+  return DateTime.now().toFormat("dd-MM-yyyy");
 }
 
 const MAX_TRY_COUNT = 6;
