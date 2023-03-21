@@ -12,6 +12,7 @@
 //  "municip5020",
 //  "municip5022",
 //  "municip5021",
+//  "municip5061",
 
 export const countryCodesWithImage = [
   "municip5020",
@@ -344,7 +345,6 @@ export const countryCodesWithImage = [
 "municip5060",
 "municip5059",
 "municip1120",
-"municip5061",
 "municip5056",
 "municip1119",
 "municip1122",
