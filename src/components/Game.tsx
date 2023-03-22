@@ -81,7 +81,7 @@ export function Game() {
       />
       <div className="my-2">
         {gameEnded ? (
-          <Share guesses={guesses} dayString={dayString} />
+          <Share guesses={guesses} dayStringOld={dayStringOld} />
         ) : (
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col">
