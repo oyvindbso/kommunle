@@ -12,12 +12,12 @@ interface ShareProps {
   dayString: string
 }
 
-export function Share({guesses, dayStringOld}: ShareProps) {
+export function Share({guesses, dayString}: ShareProps) {
 
   const shareText = useMemo(() => {
     const guessCount = guesses.at(-1)?.distance === 0 ? guesses.length : "X";
     const dayCount = Math.floor(
-      Interval.fromDateTimes(START_DATE, DateTime.fromISO(dayStringOld)).length(
+      Interval.fromDateTimes(START_DATE, DateTime.fromISO(dayString)).length(
         "day"
       )
     );
@@ -36,7 +36,7 @@ export function Share({guesses, dayStringOld}: ShareProps) {
       .join("\n");
 
     return [title, guessString, "https://kommundle.no"].join("\n");
-  }, [dayStringOld, guesses]);
+  }, [dayString, guesses]);
   
   return (
     <CopyToClipboard

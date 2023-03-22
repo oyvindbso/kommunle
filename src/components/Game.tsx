@@ -19,18 +19,18 @@ function getDayStringOld() {
 const MAX_TRY_COUNT = 6;
 
 export function Game() {
-  const dayString = useMemo(getDayString, []); 
-  const dayStringOld = useMemo(getDayStringOld, []);
+  const dayString = useMemo(getDayStringOld, []); 
+  const dayStringNew = useMemo(getDayString, []);
   const country = useMemo(
     () =>
       countriesWithImage[
-        Math.floor(seedrandom.alea(dayString)() * countriesWithImage.length)
+        Math.floor(seedrandom.alea(dayStringNew)() * countriesWithImage.length)
       ],
-    [dayString]
+    [dayStringNew]
   );
 
   const [currentGuess, setCurrentGuess] = useState("");
-  const [guesses, addGuess] = useGuesses(dayString);
+  const [guesses, addGuess] = useGuesses(dayStringNew);
 
   const gameEnded = guesses.length === MAX_TRY_COUNT || guesses.at(-1)?.distance === 0;
 
@@ -81,7 +81,7 @@ export function Game() {
       />
       <div className="my-2">
         {gameEnded ? (
-          <Share guesses={guesses} dayStringOld={dayStringOld} />
+          <Share guesses={guesses} dayString={dayString} />
         ) : (
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col">
