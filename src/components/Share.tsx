@@ -7,6 +7,12 @@ import { Guess } from "../domain/guess";
 
 const START_DATE = DateTime.fromISO("2023-02-24");
 
+function getDayStringOld() {
+  return DateTime.now().toFormat("yyyy-MM-dd");
+}
+
+const dayStringOld = useMemo(getDayStringOld, []);
+  
 interface ShareProps {
   guesses: Guess[]
   dayString: string
@@ -17,7 +23,7 @@ export function Share({guesses, dayString}: ShareProps) {
   const shareText = useMemo(() => {
     const guessCount = guesses.at(-1)?.distance === 0 ? guesses.length : "X";
     const dayCount = Math.floor(
-      Interval.fromDateTimes(START_DATE, DateTime.fromISO(dayString)).length(
+      Interval.fromDateTimes(START_DATE, DateTime.fromISO(dayStringOld)).length(
         "day"
       )
     );
