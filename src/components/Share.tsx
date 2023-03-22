@@ -12,7 +12,7 @@ interface ShareProps {
   dayString: string
 }
 
-export function Share({guesses, dayString}: ShareProps) {
+export function Share({guesses, dayStringOld}: ShareProps) {
 
   const shareText = useMemo(() => {
     const guessCount = guesses.at(-1)?.distance === 0 ? guesses.length : "X";
