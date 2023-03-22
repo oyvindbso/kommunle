@@ -12,11 +12,15 @@ import { Guesses } from "./Guesses";
 function getDayString() {
   return DateTime.now().toFormat("dd-MM-yyyy");
 }
+function getDayStringOld() {
+  return DateTime.now().toFormat("yyyy-MM-dd");
+}
 
 const MAX_TRY_COUNT = 6;
 
 export function Game() {
-  const dayString = useMemo(getDayString, []);
+  const dayString = useMemo(getDayString, []); 
+  const dayStringOld = useMemo(getDayStringOld, []);
   const country = useMemo(
     () =>
       countriesWithImage[

@@ -6,12 +6,6 @@ import { computeProximityPercent } from "../domain/geography";
 import { Guess } from "../domain/guess";
 
 const START_DATE = DateTime.fromISO("2023-02-24");
-
-function getDayStringOld() {
-  return DateTime.now().toFormat("yyyy-MM-dd");
-}
-
-const dayStringOld = useMemo(getDayStringOld, []);
   
 interface ShareProps {
   guesses: Guess[]
