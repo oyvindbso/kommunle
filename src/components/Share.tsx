@@ -36,7 +36,7 @@ export function Share({guesses, dayStringOld}: ShareProps) {
       .join("\n");
 
     return [title, guessString, "https://kommundle.no"].join("\n");
-  }, [dayString, guesses]);
+  }, [dayStringOld, guesses]);
   
   return (
     <CopyToClipboard
