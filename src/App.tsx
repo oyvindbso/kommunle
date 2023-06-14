@@ -81,7 +81,8 @@ function App() {
               <span style="color:#f9fbfc">D</span>
               <span style="color:#4fa5c2">L</span>
               <span style="color:#f587ac">E</span>
-            </h1>;
+            </h1>
+            ;
             <button
               className="ml-3 text-xl"
               type="button"
