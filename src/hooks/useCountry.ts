@@ -3,8 +3,8 @@ import seedrandom from "seedrandom";
 import { countriesWithImage, Country } from "../domain/countries";
 
 const forcedCountries: Record<string, string> = {
-  "2022-02-02": "TD",
-  "2022-02-03": "PY",
+  "16-06-2023": "municip4624",
+  "17-06-2023": "municip4622",
 };
 
 export function useCountry(dayString: string): [Country, number, number] {
