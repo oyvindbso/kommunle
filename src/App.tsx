@@ -72,7 +72,7 @@ function App() {
               ❓
             </button>
             <h1 className="text-4xl font-bold uppercase tracking-wide text-center my-1 flex-auto">
-              GODT VALG!
+              KOMMUND<span className="text-green-600">L</span>E
             </h1>
             <button
               className="ml-3 text-xl"
