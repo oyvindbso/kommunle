@@ -72,15 +72,7 @@ function App() {
               ❓
             </button>
             <h1 className="text-4xl font-bold uppercase tracking-wide text-center my-1 flex-auto">
-              <span style="color:#000000">K</span>
-              <span style="color:#000000">O</span>
-              <span style="color:#000000">M</span>
-              <span style="color:#FFFFFF">M</span>
-              <span style="color:#FFFFFF">U</span>
-              <span style="color:#FFFFFF">N</span>
-              <span style="color:#149954">D</span>
-              <span style="color:#149954">L</span>
-              <span style="color:#149954">E</span>
+<span style="color:#000000">K</span><span style="color:#000000">O</span><span style="color:#000000">M</span><span style="color:#FFFFFF">M</span><span style="color:#FFFFFF">U</span><span style="color:#FFFFFF">N</span><span style="color:#149954">D</span><span style="color:#149954">L</span><span style="color:#149954">E</span>
             </h1>
             <button
               className="ml-3 text-xl"
