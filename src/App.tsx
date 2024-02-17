@@ -105,6 +105,7 @@ function App() {
               <span style={{ color: "#149954" }}>D</span>
               <span style={{ color: "#149954" }}>L</span>
               <span style={{ color: "#149954" }}>E</span>
+              <span style={{ color: "#149954" }}> </span>
               <span>🇵🇸</span>
             </h1>
             <button
