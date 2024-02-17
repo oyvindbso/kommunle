@@ -75,12 +75,13 @@ function App() {
               <span style={{ color: "#000000" }}>K</span>
               <span style={{ color: "#000000" }}>O</span>
               <span style={{ color: "#000000" }}>M</span>
-              <span style={{ color: "#FFFFFF" }}>M</span>
-              <span style={{ color: "#FFFFFF" }}>U</span>
-              <span style={{ color: "#FFFFFF" }}>N</span>
+              <span style={{ color: "#FFFFFF",textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" }}>M</span>
+              <span style={{ color: "#FFFFFF",textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" }}>U</span>
+              <span style={{ color: "#FFFFFF",textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" }}>N</span>
               <span style={{ color: "#149954" }}>D</span>
               <span style={{ color: "#149954" }}>L</span>
               <span style={{ color: "#149954" }}>E</span>
+              <span>🇵🇸</span>
             </h1>
             <button
               className="ml-3 text-xl"
