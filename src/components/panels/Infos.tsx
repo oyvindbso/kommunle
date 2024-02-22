@@ -16,6 +16,9 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
     <Panel title="Spillemåte" isOpen={isOpen} close={close}>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div>
+        <b> Kommundle har blitt enda vanskeligere! Nå oppdatert med Haram kommune. </b>
+        </div>
+        <div>
           Gjett riktig kommune på seks forsøk. Hver gjetning må være en norsk
           kommune.
         </div>
