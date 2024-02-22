@@ -173,16 +173,16 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           href="https://www.csids.no/csmaps/"
           target="_blank"
           rel="noopener noreferrer"
-        >csmaps</a>
+        >csmaps </a>
           fra{" "}
-        <a
+        <a  
           className="underline"
           href="https://www.csids.no/"
           target="_blank"
           rel="noopener noreferrer"
         >
         Consortium for Statistics in Disease Surveillance
-        </a>
+        </a>.
       </div>
     </Panel>
   );
