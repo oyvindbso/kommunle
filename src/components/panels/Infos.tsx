@@ -167,14 +167,21 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           Wikipedia
         </a>
         . Norske kommuners geografiske plassering er beregnet ved hjelp av
-        kartene som er tilgjengelige i Folkehelseinstituttets r-pakke{" "}
+        kartene som er tilgjengelige i r-pakka{" "}
         <a
           className="underline"
-          href="https://docs.sykdomspulsen.no/splmaps/articles/splmaps.html"
+          href="https://www.csids.no/csmaps/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >csmaps</a>
+          fra{" "}
+        <a
+          className="underline"
+          href="https://www.csids.no/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          splmaps.
+        Consortium for Statistics in Disease Surveillance
         </a>
       </div>
     </Panel>
