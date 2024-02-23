@@ -1565,7 +1565,7 @@ name: "Vega"
 code: "municip1818",
 latitude: 12.3171484111105,
 longitude: 65.9972701719428,
-name: "Herøy"
+name: "Herøy (Nordland)"
 },  
 
 {
@@ -1642,7 +1642,7 @@ name: "Grane"
 code: "municip1515",
 latitude: 5.718691304655,
 longitude: 62.2666073449117,
-name: "Herøy"
+name: "Herøy (Møre og Romsdal)"
 },  
 
 {
