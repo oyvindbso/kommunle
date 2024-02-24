@@ -360,7 +360,6 @@ export const countryCodesWithImage = [
        'municip5042',
        'municip5041',
        'municip1580',
-       'municip1534',
 ];
 
 export interface Country {
