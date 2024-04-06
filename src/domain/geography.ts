@@ -1,6 +1,5 @@
 const MAX_DISTANCE_ON_EARTH = 1_900_000;
 
-
 export type Direction =
   | "S"
   | "W"
