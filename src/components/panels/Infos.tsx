@@ -154,7 +154,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             Lyst til å kjøpe oss en kaffe? ☕
           </a>
         </div>
-        <div className="font-bold">DATA</div>
+        <div className="font-bold">TAKK</div>
         Denne siden hadde ikke vært mulig uten data tilrettelagt av andre og vi
         er veldig takknemlige for dette dugnadsarbeidet og for det offentliges
         tilgjengeliggjøring av data. Kommunevåpnene er hentet fra{" "}
