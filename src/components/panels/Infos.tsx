@@ -182,7 +182,14 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           rel="noopener noreferrer"
         >
         Consortium for Statistics in Disease Surveillance
-        </a>.
+        </a>. Takk også til   <a
+          className="underline"
+          href="https://github.com/joonerik"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          joonerik
+        </a> for hjelp til forbedringer av spillet.
       </div>
     </Panel>
   );
