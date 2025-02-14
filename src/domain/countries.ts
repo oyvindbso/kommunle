@@ -710,7 +710,7 @@ name: "Skiptvet"
 code: "municip3114",
 longitude: 10.9337203804411,
 latitude: 59.4614034180622,
-name: "Våler"
+name: "Våler (Østfold)"
 },  
 
 {
@@ -2173,9 +2173,9 @@ name: "Aure"
 code: "municip3419",
 longitude: 11.954090002207,
 latitude: 60.786408294059,
-name: "Våler"
-},  
-
+name: "Våler (Innlandet)"
+},
+  
 {
 code: "municip3422",
 longitude: 11.4971369634782,
